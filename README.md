@@ -2,6 +2,8 @@
 
 Managing urban traffic — especially at busy intersections — is one of the biggest challenges in modern cities. Traditional traffic lights operate on fixed timers, which don’t account for the constantly changing traffic conditions. This leads to long waiting times, traffic congestion, and increased pollution.
 
+  <br><br>
+  
 ## 🌐 Problem Statement
 
 Current traffic control systems lack adaptability and fail to respond dynamically to real-time traffic flow or emergency situations. As a result:
@@ -9,6 +11,7 @@ Current traffic control systems lack adaptability and fail to respond dynamicall
 * 🚗 Vehicles often wait longer than necessary.
 * 🚑 Emergency vehicles struggle to pass through congested intersections.
 * 🌫️ Urban air quality worsens due to idling and congestion.
+
   <br><br>
 
 ## 💡 Our Solution
@@ -19,6 +22,8 @@ We're building an **intelligent traffic signal control system** that adapts in r
 * 📊 Track vehicle counts and positions in each lane using **Ultralytics’ built-in tracker**.
 * ⏱️ Dynamically adjust traffic signal timings based on real-time traffic volume.
 * 🚨 Prioritize emergency vehicles to ensure quick passage.
+
+    <br><br>
 
 ## 🧠 How It Works
 
@@ -37,12 +42,16 @@ We're building an **intelligent traffic signal control system** that adapts in r
 4. **Signal Control:**
    Based on the input from the tracking system and the scheduling algorithm, the traffic signals are updated on-the-fly to optimize flow.
 
+     <br><br>
+
 ## 🚀 Features
 
 * ✅ Real-time vehicle detection and tracking
 * 🚦 Adaptive traffic light control based on live traffic conditions
 * 🚨 Emergency vehicle prioritization
 * 📈 Performance benchmarking with traditional fixed-time algorithms
+
+    <br><br>
 
 ## 🧪 Testing & Validation
 
@@ -52,6 +61,8 @@ We are simulating and testing our solution in realistic intersection environment
 * Emergency vehicle response time
 * Overall traffic flow efficiency
 
+    <br><br>
+
 ## 🔍 Tech Stack
 
 * **YOLOv8** for object detection
@@ -60,7 +71,7 @@ We are simulating and testing our solution in realistic intersection environment
 * **OpenCV** for video processing
 * **Custom Scheduling Algorithm** for adaptive signal control
 
-
+  <br><br>
 
 ## 📌 Future Plans
 
@@ -68,13 +79,40 @@ We are simulating and testing our solution in realistic intersection environment
 * 📊 Collect long-term traffic data for continuous model improvement
 * 🤝 Collaborate with urban traffic authorities for pilot programs
 
+  <br><br>
+
+Sure! Here's a slightly expanded version of the **📄 License** section to give more clarity on what the MIT License allows and encourages. This is especially useful for open-source projects on GitHub:
+
 ---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — a permissive open-source license that allows anyone to use, modify, distribute, and even sell copies of the software, as long as the original license and copyright notice are included.
+
+### ✅ What You Can Do:
+
+* 🔧 Use this code for personal or commercial projects
+* ✍️ Modify it to suit your own needs
+* 📦 Redistribute it as part of other software
+* 💼 Use it in closed-source or proprietary systems
+
+### 🚫 What You Can’t Do:
+
+* ❌ Remove the original license or claim the project as entirely your own without attribution
+* ❌ Hold the authors liable for any damages that arise from using this software (it's provided *as-is*)
+
+You can find the full license terms in the [LICENSE](LICENSE) file in this repository.
+
+---
+
+Let me know if you’d like to use a different license (like Apache 2.0 or GPL) or if you want me to generate the actual `LICENSE` file content.
+
 
 ## 🤝 Contributing
 
 Contributions are welcome! If you're interested in traffic optimization, computer vision, or real-time systems, feel free to open issues or submit PRs.
 
----
+  <br><br>
 
 ## 📄 License
 
