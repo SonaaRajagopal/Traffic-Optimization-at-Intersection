@@ -12,7 +12,7 @@ Current traffic control systems lack adaptability and fail to respond dynamicall
 * 🚑 Emergency vehicles struggle to pass through congested intersections.
 * 🌫️ Urban air quality worsens due to idling and congestion.
 
-  <br><br>
+  <br>
 
 ## 💡 Our Solution
 
@@ -23,7 +23,7 @@ We're building an **intelligent traffic signal control system** that adapts in r
 * ⏱️ Dynamically adjust traffic signal timings based on real-time traffic volume.
 * 🚨 Prioritize emergency vehicles to ensure quick passage.
 
-    <br><br>
+    <br>
 
 ## 🧠 How It Works
 
@@ -42,7 +42,7 @@ We're building an **intelligent traffic signal control system** that adapts in r
 4. **Signal Control:**
    Based on the input from the tracking system and the scheduling algorithm, the traffic signals are updated on-the-fly to optimize flow.
 
-     <br><br>
+     <br>
 
 ## 🚀 Features
 
@@ -51,7 +51,7 @@ We're building an **intelligent traffic signal control system** that adapts in r
 * 🚨 Emergency vehicle prioritization
 * 📈 Performance benchmarking with traditional fixed-time algorithms
 
-    <br><br>
+    <br>
 
 ## 🧪 Testing & Validation
 
@@ -61,7 +61,7 @@ We are simulating and testing our solution in realistic intersection environment
 * Emergency vehicle response time
 * Overall traffic flow efficiency
 
-    <br><br>
+    <br>
 
 ## 🔍 Tech Stack
 
@@ -71,7 +71,7 @@ We are simulating and testing our solution in realistic intersection environment
 * **OpenCV** for video processing
 * **Custom Scheduling Algorithm** for adaptive signal control
 
-  <br><br>
+  <br>
 
 ## 📌 Future Plans
 
@@ -79,7 +79,7 @@ We are simulating and testing our solution in realistic intersection environment
 * 📊 Collect long-term traffic data for continuous model improvement
 * 🤝 Collaborate with urban traffic authorities for pilot programs
 
-  <br><br>
+  <br>
 
 
 ## 📄 License
@@ -100,7 +100,7 @@ This project is licensed under the [MIT License](LICENSE) : a permissive open-so
 
 You can find the full license terms in the [LICENSE](LICENSE) file in this repository.
 
-  <br><br>
+  <br>
 
 ## 🤝 Contributing
 
