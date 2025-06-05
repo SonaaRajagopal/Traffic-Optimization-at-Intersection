@@ -81,13 +81,10 @@ We are simulating and testing our solution in realistic intersection environment
 
   <br><br>
 
-Sure! Here's a slightly expanded version of the **📄 License** section to give more clarity on what the MIT License allows and encourages. This is especially useful for open-source projects on GitHub:
-
----
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — a permissive open-source license that allows anyone to use, modify, distribute, and even sell copies of the software, as long as the original license and copyright notice are included.
+This project is licensed under the [MIT License](LICENSE) : a permissive open-source license that allows anyone to use, modify, distribute, and even sell copies of the software, as long as the original license and copyright notice are included.
 
 ### ✅ What You Can Do:
 
@@ -103,15 +100,11 @@ This project is licensed under the **MIT License** — a permissive open-source 
 
 You can find the full license terms in the [LICENSE](LICENSE) file in this repository.
 
-
+  <br><br>
 
 ## 🤝 Contributing
 
 Contributions are welcome! If you're interested in traffic optimization, computer vision, or real-time systems, feel free to open issues or submit PRs.
 
-  <br><br>
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
