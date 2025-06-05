@@ -1,7 +1,3 @@
-Here’s a polished and professional version of your project description, optimized for your GitHub repository `Traffic-Optimization-at-Intersection`. This version includes structured markdown formatting, improved tone, and clarity for potential collaborators or viewers:
-
----
-
 # 🚦 Traffic Optimization at Intersections using YOLOv8 and Real-Time Scheduling
 
 Managing urban traffic — especially at busy intersections — is one of the biggest challenges in modern cities. Traditional traffic lights operate on fixed timers, which don’t account for the constantly changing traffic conditions. This leads to long waiting times, traffic congestion, and increased pollution.
