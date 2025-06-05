@@ -9,7 +9,7 @@ Current traffic control systems lack adaptability and fail to respond dynamicall
 * 🚗 Vehicles often wait longer than necessary.
 * 🚑 Emergency vehicles struggle to pass through congested intersections.
 * 🌫️ Urban air quality worsens due to idling and congestion.
-  <br>
+  <br><br>
 
 ## 💡 Our Solution
 
