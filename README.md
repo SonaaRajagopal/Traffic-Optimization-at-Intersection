@@ -2,7 +2,7 @@
 
 Managing urban traffic — especially at busy intersections — is one of the biggest challenges in modern cities. Traditional traffic lights operate on fixed timers, which don’t account for the constantly changing traffic conditions. This leads to long waiting times, traffic congestion, and increased pollution.
 
-  <br><br>
+  <br>
   
 ## 🌐 Problem Statement
 
