@@ -1,10 +1,81 @@
-# Traffic-Optimization-at-Intersection
-Managing urban traffic, especially at busy intersections, is a major headache for modern cities. The old-school traffic lights with their fixed timings just can't keep up with the changing traffic volumes and conditions, leading to long waits, congestion, and more pollution. It's clear that we need smarter solutions to keep our city traffic flowing smoothly.
+🚦 Traffic Optimization at Intersections using YOLOv8 and Real-Time Scheduling
+Managing urban traffic — especially at busy intersections — is one of the biggest challenges in modern cities. Traditional traffic lights operate on fixed timers, which don’t account for the constantly changing traffic conditions. This leads to long waiting times, traffic congestion, and increased pollution.
 
+🌐 Problem Statement
+Current traffic control systems lack adaptability and fail to respond dynamically to real-time traffic flow or emergency situations. As a result:
 
-That's where intelligent traffic signal control systems come in. By harnessing machine learning and real-time data, these systems can adjust traffic signals based on what's actually happening on the roads. This means smoother traffic flow, shorter wait times, and a more responsive approach to emergencies. Imagine a system that detects heavy traffic or an approaching ambulance and adjusts the signals accordingly – that's the future of urban traffic management.
+🚗 Vehicles often wait longer than necessary.
 
+🚑 Emergency vehicles struggle to pass through congested intersections.
 
-Our project focuses on creating just such a system, using the YOLOv8 model for precise vehicle detection. We'll compare existing algorithms, build a model that prioritizes congested lanes and emergency vehicles, and test it in a real-world intersection scenario. The aim is to improve traffic flow and ensure emergency vehicles can get through quickly, making our city streets more efficient and safer for everyone.
+🌫️ Urban air quality worsens due to idling and congestion.
 
-The proposed vehicle detection and traffic signal control system integrates advanced machine learning and adaptive scheduling to optimize traffic management. Leveraging a custom-trained YOLOv8 model, the system accurately detects and classifies vehicles, including emergency vehicles like police cars and ambulances, in real-time from traffic camera feeds. Integrated with Ultralytic’s default tracker, the YOLO model maintains vehicle positions and counts. This real-time data is fed into a priority-based scheduling algorithm, which dynamically adjusts green light durations. The algorithm prioritizes lanes with emergency vehicles and allocates green time based on the vehicle count in each lane. By combining accurate vehicle detection with adaptive signal adjustments, the system enhances traffic flow efficiency and ensures rapid passage for emergency vehicles. 
+💡 Our Solution
+We're building an intelligent traffic signal control system that adapts in real-time using computer vision and machine learning. By leveraging YOLOv8 for vehicle detection and a custom priority-based scheduling algorithm, our system aims to:
+
+📸 Detect and classify vehicles (cars, buses, bikes, ambulances, etc.) from live traffic feeds.
+
+📊 Track vehicle counts and positions in each lane using Ultralytics’ built-in tracker.
+
+⏱️ Dynamically adjust traffic signal timings based on real-time traffic volume.
+
+🚨 Prioritize emergency vehicles to ensure quick passage.
+
+🧠 How It Works
+Vehicle Detection:
+A custom-trained YOLOv8 model identifies and classifies vehicles, including emergency types, from traffic camera footage.
+
+Vehicle Tracking:
+Using Ultralytics' default tracker, the system tracks vehicle positions and counts per lane in real time.
+
+Dynamic Scheduling Algorithm:
+The algorithm:
+
+Prioritizes lanes with emergency vehicles.
+
+Allocates green light duration based on vehicle density in each lane.
+
+Signal Control:
+Based on the input from the tracking system and the scheduling algorithm, the traffic signals are updated on-the-fly to optimize flow.
+
+🚀 Features
+✅ Real-time vehicle detection and tracking
+
+🚦 Adaptive traffic light control based on live traffic conditions
+
+🚨 Emergency vehicle prioritization
+
+📈 Performance benchmarking with traditional fixed-time algorithms
+
+🧪 Testing & Validation
+We are simulating and testing our solution in realistic intersection environments to measure improvements in:
+
+Average vehicle wait time
+
+Emergency vehicle response time
+
+Overall traffic flow efficiency
+
+🔍 Tech Stack
+YOLOv8 for object detection
+
+Ultralytics Tracker for real-time vehicle tracking
+
+Python for core logic and algorithms
+
+OpenCV for video processing
+
+Custom Scheduling Algorithm for adaptive signal control
+
+📌 Future Plans
+🌍 Deploy to real intersections with live camera feeds
+
+📊 Collect long-term traffic data for continuous model improvement
+
+🤝 Collaborate with urban traffic authorities for pilot programs
+
+🤝 Contributing
+Contributions are welcome! If you're interested in traffic optimization, computer vision, or real-time systems, feel free to open issues or submit PRs.
+
+📄 License
+This project is licensed under the MIT License.
