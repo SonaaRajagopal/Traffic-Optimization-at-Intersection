@@ -103,9 +103,6 @@ This project is licensed under the **MIT License** — a permissive open-source 
 
 You can find the full license terms in the [LICENSE](LICENSE) file in this repository.
 
----
-
-Let me know if you’d like to use a different license (like Apache 2.0 or GPL) or if you want me to generate the actual `LICENSE` file content.
 
 
 ## 🤝 Contributing
