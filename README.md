@@ -9,6 +9,7 @@ Current traffic control systems lack adaptability and fail to respond dynamicall
 * 🚗 Vehicles often wait longer than necessary.
 * 🚑 Emergency vehicles struggle to pass through congested intersections.
 * 🌫️ Urban air quality worsens due to idling and congestion.
+  <br>
 
 ## 💡 Our Solution
 
@@ -59,7 +60,7 @@ We are simulating and testing our solution in realistic intersection environment
 * **OpenCV** for video processing
 * **Custom Scheduling Algorithm** for adaptive signal control
 
----
+
 
 ## 📌 Future Plans
 
@@ -79,6 +80,3 @@ Contributions are welcome! If you're interested in traffic optimization, compute
 
 This project is licensed under the [MIT License](LICENSE).
 
----
-
-Let me know if you'd like this description broken into a `README.md` with code setup instructions and folder structure!
