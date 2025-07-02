@@ -1,5 +1,13 @@
 # 🚦 Traffic Optimization at Intersections using YOLOv8 and Real-Time Scheduling
 
+![YOLOv8](https://img.shields.io/badge/YOLO-v8-red?logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSJyZ...shortened)
+![Ultralytics](https://img.shields.io/badge/Tracker-Ultralytics-blue)
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?logo=opencv&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific-grey?logo=numpy)
+![Custom Algorithm](https://img.shields.io/badge/Scheduling-Custom%20Priority%20Algorithm-lightgrey)
+
+
 Managing urban traffic — especially at busy intersections — is one of the biggest challenges in modern cities. Traditional traffic lights operate on fixed timers, which don’t account for the constantly changing traffic conditions. This leads to long waiting times, traffic congestion, and increased pollution.
 
   <br>
